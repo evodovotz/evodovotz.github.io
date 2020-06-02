@@ -1,0 +1,143 @@
+/* Style sheet created by: Ethan Vodovotz, May 11, 2020*/
+
+#container {
+	width: 80%;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#mainabout {
+	display: inline;
+	margin-top: 2em;
+	padding: 0em;
+	font-family: "Arial";
+	line-height: 28px;
+	text-indent: 50px;
+	font-size: 20px;
+}
+
+#content {
+	display: inline-block;
+	font-style: italic;
+	text-align: center;
+}
+
+header {
+	text-align: center;
+	font-size: 2em;
+	font-family: "Arial";
+	text-transform: uppercase;
+	font-stretch: expanded;
+}
+ 
+nav {
+	font-size: 2em;
+	font-family: "Arial"; 
+	text-align: center;
+	font-variant: small-caps; 
+}
+
+/* nav ul {
+	margin: 0;
+	padding-left: 1em;
+	padding-right: 1em;
+} */
+
+nav li {
+	display: inline-block;
+	float: left;
+	margin-left: 0%;
+	margin-right: 0%;
+	margin-bottom: 1em;
+	padding-left: 0;
+	padding-right: 0;
+	width: 25%;
+	white-space: nowrap;
+} 
+
+nav li a {
+	color: #000000;
+	text-decoration: none;
+	display: inline-block;
+	padding: 0em;
+} 
+
+/* nav li a:active {
+	text-decoration: underline;
+} */
+
+nav a.selected {
+	text-decoration: underline;
+} 
+
+main a.selected {
+	text-decoration: underline;
+	color: black;
+} 
+
+/* main li a:active{
+	text-decoration: underline;
+	color: white;
+} */
+
+/* main {
+	font-family: "Arial";
+	text-decoration: none;
+	color: #000000;
+} */
+
+main ul {
+	margin:0;
+	padding-left: 1em;
+	padding-right: 1em;
+	text-align: center;
+	font-family: "Arial";
+	font-size: 1em;
+	font-variant: lowercase; 
+} 
+
+main li {
+	display: inline-block;
+	float: left;
+	margin-left: 11em;
+	margin-right: 0%;
+	padding-left: 0;
+	padding-right: 0;
+	width: 0%;
+	white-space: nowrap;
+	font-variant: lowercase; 
+} 
+
+main li a {
+	color: #000000;
+	text-decoration: none;
+	text-align: center;
+	padding: 1em;
+} 
+
+#contactinfo {
+	text-align: left;
+	margin-top: 5em;
+	font-family: "Arial";
+	font-size: 1.5em;
+	padding-right: 2em;
+	text-indent: 10em;
+}
+
+#picture {
+	display: inline-block;
+	text-align: center;
+	margin: 0.5em;
+}
+
+footer {
+	font-size: 0.8em;
+	text-align: center;
+	margin-top: 2em;
+}
+
+media {
+	display: inline-block;
+	float: left;
+	padding-right: 20px;
+}
